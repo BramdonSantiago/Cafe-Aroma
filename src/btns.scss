@@ -1,0 +1,21 @@
+.btn {
+    padding: 0.6rem 1.75rem;
+    border: 1px solid transparent;
+    font-size: 0.875rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    &.btn-primary {
+        background-color: var(--primary);
+        color: var(--white);
+    }
+    &.btn-secondary {
+        background-color: var(--secondary);
+        color: var(--gray-1);
+    }
+    &.btn-outline-primary {
+        border-color: var(--primary);
+    }
+}
