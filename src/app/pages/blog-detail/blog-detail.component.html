@@ -1,1 +1,33 @@
-<p>blog-detail works!</p>
+<div class="blog-detail my-10">
+    <div class="container">
+        <div class="grid grid-cols-12 xl:gap-4">
+            <div class="col-span-12 lg:col-span-3 lg:px-6">
+                <aside>
+                    <p>Aside Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, pariatur saepe, beatae, temporibus error delectus quos totam eum rerum est porro earum ut accusantium! Facere vitae in sequi officia sed animi modi aperiam natus mollitia unde corrupti hic commodi rerum repellendus, ipsam accusamus, odit, fuga debitis cumque nesciunt fugiat accusantium incidunt dolores dicta. Perspiciatis unde facere magnam illum suscipit alias reiciendis! Veniam perspiciatis ipsum, explicabo officia neque fugiat a, excepturi tempora assumenda ea repudiandae id eius. Nihil alias expedita maiores similique omnis vel ea eligendi qui quisquam. Facere, ullam aspernatur.</p>
+                </aside>
+            </div>
+            <div class="col-span-12 lg:col-span-9 lg:px-6">
+                <img src="{{ blog.image }}" alt="" class="w-full">
+                <div class="blog-info mt-4">
+                    <h1>{{ blog.title }}</h1>
+                    <p class="full-date my-2"><i class="fa-regular fa-calendar mr-2"></i>{{ blog.date | date:'d MMMM y' : '' : 'es' }}</p>
+                    <div>
+                        {{ blog.longDescription }}
+                    </div>
+                    <!-- <div class="video-16-9">
+                        <iframe class="video" src="https://www.youtube.com/embed/w8KQmps-Sog?si=d82erAIROj5jlRtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, impedit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, impedit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, impedit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, impedit.</li>
+                    </ul> -->
+                </div>
+                <div class="mt-4">
+                    <app-btn-share></app-btn-share>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
