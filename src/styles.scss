@@ -38,7 +38,7 @@ p {
 }
 
 .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
-    bottom: -60px !important;
+    bottom: -25px !important;
 }
 .swiper-pagination-bullet {
     width: 13px !important;
@@ -49,6 +49,12 @@ p {
 }
 .swiper-pagination-bullet-active {
     background-color: var(--primary) !important;
+}
+
+@media(min-width: 1200px) {
+    .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: -60px !important;
+    }
 }
 
 
