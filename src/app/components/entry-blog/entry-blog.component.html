@@ -4,7 +4,7 @@
     </div>
     <div class="content-body p-4">
         <h3>{{ blog.title }}</h3>
-        <p>{{ blog.date | date:'d MMMM y' : '' : 'es' }}</p>
+        <p class="date">{{ blog.date | date:'d MMMM y' : '' : 'es' }}</p>
         <p class="my-4">{{ blog.descriptionShort }}</p>
         <div class="mt-8">
             <a class="btn btn-primary w-full">Leer más</a>
