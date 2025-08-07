@@ -1,0 +1,181 @@
+.quick-cart {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100dvw;
+    height: 85dvh;
+    background-color: #FFF;
+    box-shadow: 0px 0 20px 0 rgba(#000, 0.2);
+    padding: 1rem;
+    z-index: 10;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    .quick-cart-close {
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: var(--primary);
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &::before {
+            content: "";
+            background-color: var(--terteary);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 0;
+            width: 100%;
+            opacity: 0;
+            z-index: -1;
+            transition: all 0.6s ease;
+            -webkit-transition: all 0.6s ease;
+            -moz-transition: all 0.6s ease;
+            -ms-transition: all 0.6s ease;
+            -o-transition: all 0.6s ease;
+        }
+        &:hover {
+            &::before {
+                height: 100%;
+                opacity: 1;
+            }
+        }
+        i {
+            transition: rotate 0.6s ease;
+            -webkit-transition: rotate 0.6s ease;
+            -moz-transition: rotate 0.6s ease;
+            -ms-transition: rotate 0.6s ease;
+            -o-transition: rotate 0.6s ease;
+        }
+        &:hover {
+            i {
+                rotate: 180deg;
+            }
+        }
+
+    }
+    // &.show-quick-cart {
+    //     transform: translateY(-100%);
+    //     -webkit-transform: translateY(-100%);
+    //     -moz-transform: translateY(-100%);
+    //     -ms-transform: translateY(-100%);
+    //     -o-transform: translateY(-100%);
+    // }
+    &.show-quick-cart {
+        bottom: 0;
+    }
+    .total {
+        color: #858585;
+        font-size: 1.250rem;
+        font-weight: 500;
+    }
+}
+
+.products {
+    max-height: 25rem;
+    overflow: auto;
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+    &::-webkit-scrollbar-track {
+        background-color: #F5F5F5;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px; 
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #CCC;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: #8a8a8a;
+    }
+}
+.product {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #CCC;
+    // &:last-child {
+    //     border-bottom: 0;
+    // }
+    img {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .product-name {
+        font-weight: 500;
+        line-height: 1;
+    }
+    .product-price {
+        color: var(--primary);
+        font-weight: 500;
+    }
+    .product-quantity {
+        color: #858585;
+        // font-weight: 500;
+    }
+}   
+
+@media(min-width: 1200px) {
+    .quick-cart {
+        top: -100%;
+        bottom: unset;
+        left: unset;
+        right: 0;
+        width: 35dvw;
+        height: 100%;
+        &.show-quick-cart {
+            top: 0;
+            transform: translateY(0);
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+        }
+    }
+}
+
+
+.btns-cart {
+    .btn {
+        min-width: calc(50% - 1rem);
+    }
+}
+
+
+.btn-delete {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    color: #858585;
+    transition: color 0.6s ease;
+    -webkit-transition: color 0.6s ease;
+    -moz-transition: color 0.6s ease;
+    -ms-transition: color 0.6s ease;
+    -o-transition: color 0.6s ease;
+    i {
+        margin-right: 10px;
+    }
+    &:hover {
+        color: var(--primary);
+    }
+}
