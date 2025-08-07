@@ -1,1 +1,19 @@
-<p>promotion works!</p>
+<div class="singular-promotion">
+    <div class="content-img">
+        <img src="{{ promotion.image }}" alt="">
+        <span class="badge-discount">50% OFF</span>
+    </div>
+    <div class="content-body">
+        <h3 class="mb-4">{{ promotion.title }}</h3>
+        <p>{{ promotion.shortDescription }}</p>
+        <div class="mt-8">
+            <a class="btn btn-secondary">Ver oferta</a>
+        </div>
+        @if (!promotionFeatured) {
+            <div class="promotion-hover">
+                <span class="schedule">Hasta las 11:00 AM</span>
+                <span class="badge">$8.50</span>
+            </div>
+        }
+    </div>
+</div>

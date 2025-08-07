@@ -11,63 +11,57 @@ export class PromotionsComponent {
   promotions = [
     {
       id: 1,
-      image: '/assets/images/promocion1.jpg',
+      image: '/assets/images/cafe-1.jpeg',
       title: '2x1 en Cafés Fríos',
-      descripcion: 'Disfruta de un delicioso café frío y llévate otro completamente gratis. Solo por hoy.'
+      shortDescription: 'Disfruta de un delicioso café frío y llévate otro completamente gratis. Solo por hoy.'
     },
     {
       id: 2,
-      image: '/assets/images/promocion2.jpg',
+      image: '/assets/images/cafe-2.jpeg',
       title: 'Postres al 50%',
-      descripcion: 'Mitad de precio en todos nuestros postres artesanales. Solo en compras mayores a $100.'
+      shortDescription: 'Mitad de precio en todos nuestros postres artesanales. Solo en compras mayores a $100.'
     },
     {
       id: 3,
-      image: '/assets/images/promocion3.jpg',
+      image: '/assets/images/cafe-3.jpeg',
       title: 'Café + Panecillo',
-      descripcion: 'Combo especial de café con panecillo recién horneado por solo $49 MXN.'
+      shortDescription: 'Combo especial de café con panecillo recién horneado por solo $49 MXN.'
     },
     {
       id: 4,
-      image: '/assets/images/promocion4.jpg',
+      image: '/assets/images/cafe-4.jpeg',
       title: 'Descuento por Reutilizar',
-      descripcion: 'Trae tu propio vaso y obtén un 15% de descuento en cualquier bebida.'
+      shortDescription: 'Trae tu propio vaso y obtén un 15% de descuento en cualquier bebida.'
     },
     {
       id: 5,
-      image: '/assets/images/promocion5.jpg',
+      image: '/assets/images/cafe-5.jpeg',
       title: 'Happy Hour',
-      descripcion: 'De 5 a 7 PM, todas las bebidas al 2x1. Ideal para cerrar el día.'
+      shortDescription: 'De 5 a 7 PM, todas las bebidas al 2x1. Ideal para cerrar el día.'
     },
     {
       id: 6,
-      image: '/assets/images/promocion6.jpg',
+      image: '/assets/images/chocolate1-min.jpg',
       title: 'Nueva Línea Orgánica',
-      descripcion: 'Prueba nuestras nuevas bebidas orgánicas hechas con ingredientes 100% naturales.'
+      shortDescription: 'Prueba nuestras nuevas bebidas orgánicas hechas con ingredientes 100% naturales.'
     },
     {
       id: 7,
-      image: '/assets/images/promocion7.jpg',
+      image: '/assets/images/chocolate2-min.jpg',
       title: 'Regalo por Check-in',
-      descripcion: 'Haz check-in en nuestras redes sociales y llévate una galleta gratis.'
+      shortDescription: 'Haz check-in en nuestras redes sociales y llévate una galleta gratis.'
     },
     {
       id: 8,
-      image: '/assets/images/promocion8.jpg',
+      image: '/assets/images/chocolate3-min.jpg',
       title: 'Especial Estudiantil',
-      descripcion: 'Presenta tu credencial de estudiante y recibe un 20% de descuento.'
+      shortDescription: 'Presenta tu credencial de estudiante y recibe un 20% de descuento.'
     },
     {
       id: 9,
-      image: '/assets/images/promocion9.jpg',
+      image: '/assets/images/chocolate4-min.jpg',
       title: 'Domingos Dulces',
-      descripcion: 'Todos los domingos los frappés tienen un 30% de descuento.'
+      shortDescription: 'Todos los domingos los frappés tienen un 30% de descuento.'
     },
-    {
-      id: 10,
-      image: '/assets/images/promocion10.jpg',
-      title: 'Bebida de Temporada',
-      descripcion: 'Descubre nuestro nuevo Latte de Calabaza, disponible por tiempo limitado.'
-    }
   ];
 }

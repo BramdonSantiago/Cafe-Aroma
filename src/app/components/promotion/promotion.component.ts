@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-promotion',
@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './promotion.component.scss'
 })
 export class PromotionComponent {
-
+  @Input() promotion!: any;
+  @Input() promotionFeatured!: string;
 }

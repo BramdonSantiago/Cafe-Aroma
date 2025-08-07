@@ -11,7 +11,18 @@
             </div>
                 <div class="products grid grid-cols-1 md:grid-cols-3 gap-8">
                     @for (promotion of promotions.slice(0,3); track promotion.id) {
-                        <app-promotion></app-promotion>
+                        <app-promotion [promotion]="promotion" [promotionFeatured]="'promotionFeatured'"></app-promotion>
+                    }
+                </div>
+        </section>
+        <section class="my-10 py-10">
+            <div class="text-center mb-10">
+                <h2 class="mb-4">Todas Nuestras Promociones</h2>
+                <p>Explora todas las ofertas disponibles</p>
+            </div>
+                <div class="products grid grid-cols-1 md:grid-cols-3 gap-8">
+                    @for (promotion of promotions; track promotion.id) {
+                        <app-promotion [promotion]="promotion"></app-promotion>
                     }
                 </div>
         </section>
