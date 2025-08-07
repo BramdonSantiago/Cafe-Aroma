@@ -19,6 +19,34 @@
     -o-border-radius: 20px;
 }
 
+.cta-promotions {
+    background-color: var(--white);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    p {
+        color: var(--gray-2);
+    }
+}
+.cta-terms {
+    background-color: var(--quaternary);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    ul {
+        color: var(--gray-2);
+        li {
+            font-size: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+    }
+}
+
 
 @media(min-width: 1200px) {
     .top-promotions {
