@@ -29,4 +29,26 @@ p {
     font-size: 0.875rem;
 }
 
+.aux-position-swiper {
+    position: relative;
+}
+
+.swiper {
+    position: static !important;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -60px !important;
+}
+.swiper-pagination-bullet {
+    width: 13px !important;
+    height: 13px !important;
+}
+.swiper-pagination-bullet {
+    background-color: var(--terteary) !important;
+}
+.swiper-pagination-bullet-active {
+    background-color: var(--primary) !important;
+}
+
 
