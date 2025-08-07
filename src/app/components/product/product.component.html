@@ -1,0 +1,13 @@
+<div class="singular-product">
+    <div class="content-img">
+        <img src="{{ product.image }}" alt="" class="w-full">
+    </div>
+    <div class="body-product p-4">
+        <h3 class="mb-3">{{ product.name }}</h3>
+        <p class="short-description">{{ product.shortDescription }}</p>
+        <div class="flex items-center justify-between mt-4 xl:mt-xl-8">
+            <span class="price">${{ product.price }} {{ product.currency }}</span>
+            <button type="button" class="btn btn-primary">Agregar</button>
+        </div>
+    </div>
+</div>

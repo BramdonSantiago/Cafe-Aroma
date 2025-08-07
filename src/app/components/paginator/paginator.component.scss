@@ -1,0 +1,28 @@
+.paginator {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1rem;
+    button, .page {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0.5rem 1rem;
+        background-color: var(--white);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        gap: 0.5rem;
+        .page {
+            &.active-page {
+                background-color: var(--primary);
+                color: var(--white);
+            }
+        }
+    }
+}

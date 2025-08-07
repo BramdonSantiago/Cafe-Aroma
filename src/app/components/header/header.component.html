@@ -4,13 +4,23 @@
             <div>
                 <a href="#" class="logo">Café Aroma</a>
             </div>
-            <nav class="header-nav">
-                <a routerLink="/home" routerLinkActive="active" class="nav-link">Inicio</a>
-                <a routerLink="/catalogo" routerLinkActive="active" class="nav-link">Catálogo</a>
-                <a routerLink="/promociones" routerLinkActive="active" class="nav-link">Promociones</a>
-                <a routerLink="/blog" routerLinkActive="active" class="nav-link">Blog</a>
-                <a routerLink="/contacto" routerLinkActive="active" class="nav-link">Contacto</a>
-            </nav>
+            <div class="flex items-center">
+                <nav class="header-nav">
+                    <a routerLink="/home" routerLinkActive="active" class="nav-link">Inicio</a>
+                    <a routerLink="/catalogo" routerLinkActive="active" class="nav-link">Catálogo</a>
+                    <a routerLink="/promociones" routerLinkActive="active" class="nav-link">Promociones</a>
+                    <a routerLink="/blog" routerLinkActive="active" class="nav-link">Blog</a>
+                    <a routerLink="/contacto" routerLinkActive="active" class="nav-link">Contacto</a>
+                </nav>
+                <div class="ml-10">
+                    <div (click)="showCart()" class="cart-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="badge px-2 py-0.5 rounded-full">
+                            9
+                        </span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

@@ -1,0 +1,40 @@
+.store {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+.top-store {
+    p {
+        color: var(--gray-2);
+    }
+}
+
+.filters {
+    .btn {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        background-color: var(--white);
+        transition: background-color 0.3s ease, color 0.3s ease;
+        -webkit-transition: background-color 0.3s ease, color 0.3s ease;
+        -moz-transition: background-color 0.3s ease, color 0.3s ease;
+        -ms-transition: background-color 0.3s ease, color 0.3s ease;
+        -o-transition: background-color 0.3s ease, color 0.3s ease;
+        &:hover {
+            background-color: var(--secondary);
+        }
+        &.filter-active {
+            background-color: var(--primary);
+            color: var(--white);
+        }
+    }
+}
+
+
+@media(min-width: 1200px) {
+    .top-store {
+        width: 58%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+

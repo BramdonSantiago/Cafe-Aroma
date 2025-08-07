@@ -1,1 +1,23 @@
-<p>store works!</p>
+<div class="store mt-10 mb-20">
+    <div class="container">
+        <div class="text-center">
+            <div class="top-store text-center mb-10">
+                <h1 class="mb-4">Nuestro Catálogo</h1>
+                <p>Explora nuestra selección completa de cafés premium, tés aromáticos, productos de panadería y postres artesanales.</p>
+            </div> 
+            <div class="filters flex justify-center gap-4 mb-8">
+                <button class="btn">Todos los productos</button>
+                <button class="btn">Cafés</button>
+                <button class="btn">Tés</button>
+                <button class="btn">Panadería</button>
+                <button class="btn">Postres</button>
+            </div>
+        </div>
+        <div class="products grid grid-cols-1 md:grid-cols-3 gap-8">
+            @for (product of products; track product.id) {
+                <app-product [product]="product"></app-product>
+            }
+        </div>
+        <app-paginator></app-paginator>
+    </div>
+</div>
