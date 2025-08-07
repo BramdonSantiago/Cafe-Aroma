@@ -1,1 +1,19 @@
-<p>promotions works!</p>
+<div class="promotions mt-10 mb-20">
+    <div class="container">
+        <div class="top-promotions text-center">
+            <h1 class="mb-4">Promociones Especiales</h1>
+            <p>No te pierdas nuestras ofertas exclusivas y promociones especiales. Disfruta de tus productos favoritos con descuentos increíbles y combos únicos.</p>
+        </div>
+        <section class="featured-promotions my-10 py-10 px-8">
+            <div class="text-center mb-10">
+                <h2 class="mb-4">Promociones destacadas</h2>
+                <p>Las ofertas más populares de la semana</p>
+            </div>
+                <div class="products grid grid-cols-1 md:grid-cols-3 gap-8">
+                    @for (promotion of promotions.slice(0,3); track promotion.id) {
+                        <app-promotion></app-promotion>
+                    }
+                </div>
+        </section>
+    </div>
+</div>

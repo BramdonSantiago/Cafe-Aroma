@@ -5,7 +5,7 @@
                 <h1 class="mb-4">Nuestro Catálogo</h1>
                 <p>Explora nuestra selección completa de cafés premium, tés aromáticos, productos de panadería y postres artesanales.</p>
             </div> 
-            <div class="filters flex justify-center gap-4 mb-8">
+            <div class="filters flex justify-center flex-wrap gap-4 mb-8">
                 <button class="btn">Todos los productos</button>
                 <button class="btn">Cafés</button>
                 <button class="btn">Tés</button>
@@ -18,6 +18,8 @@
                 <app-product [product]="product"></app-product>
             }
         </div>
-        <app-paginator></app-paginator>
+        <div class="mt-10">
+            <app-paginator></app-paginator>
+        </div>
     </div>
 </div>

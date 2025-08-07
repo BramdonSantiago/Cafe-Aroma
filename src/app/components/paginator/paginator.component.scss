@@ -13,6 +13,14 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
+    button {
+        &:disabled {
+            background-color: var(--terteary);
+            opacity: 0.5;
+            cursor: default;
+            pointer-events: none;
+        }
+    }
     .pages {
         display: flex;
         justify-content: center;

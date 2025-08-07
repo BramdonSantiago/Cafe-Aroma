@@ -1,0 +1,29 @@
+.promotions {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+.top-promotions {
+    p {
+        color: var(--gray-2);
+    }
+}
+
+
+.featured-promotions {
+    background-color: var(--terteary);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+@media(min-width: 1200px) {
+    .top-promotions {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
