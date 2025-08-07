@@ -10,6 +10,31 @@ import { isPlatformBrowser } from '@angular/common';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent implements OnInit {
+  testimonials = [
+    {
+      id: 1,
+      image: '/assets/images/testimonial-1.jpg',
+      name: 'Bramdon Santiago',
+      typeTestimonial: 'Cliente frecuente',
+      say: '¡El mejor café que he probado! Siempre llega calientito y con ese aroma que alegra el día.',
+    },
+    {
+      id: 2,
+      image: '/assets/images/testimonial-2.jpeg',
+      name: 'Paul McCartney',
+      typeTestimonial: 'Comprador online',
+      say: 'El servicio es excelente. Pedí un paquete de granos y llegó en menos de 24 horas.',
+    },
+    {
+      id: 3,
+      image: '/assets/images/testimonial-3.jpeg',
+      name: 'Beto Cuevas',
+      typeTestimonial: 'Fan del café orgánico',
+      say: 'Me encanta que sus productos sean sustentables y de comercio justo. ¡Saben increíble!',
+    }
+  ];
+
+
   swiperTestimonials!: Swiper;
 
   constructor(@Inject(PLATFORM_ID) private platformId: any) {}
