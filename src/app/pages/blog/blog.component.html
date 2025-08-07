@@ -1,1 +1,13 @@
-<p>blog works!</p>
+<div class="blog mt-10 mb-20">
+    <div class="container">
+        <div class="top-blog text-center mb-10">
+            <h1 class="mb-4">Blog</h1>
+            <p>Disfuta leyendo de nuestras interesantes entradas en compañía de un buen café, busca la más interesante, hay lectura de todo tipo acerca del mundo del café</p>
+        </div>
+        <div class="entrys-blog grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-10">
+            @for (blog of blogs; track blog.id) {
+                <app-entry-blog [blog]="blog"></app-entry-blog>
+            }
+        </div>
+    </div>
+</div>

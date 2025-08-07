@@ -1,0 +1,17 @@
+.top-blog {
+    h1 {
+        font-size: 2.5rem;
+    }
+    p {
+        color: var(--gray-2);
+    }
+}
+
+
+@media(min-width: 1200px) {
+    .top-blog {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
