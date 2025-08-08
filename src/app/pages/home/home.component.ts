@@ -2,10 +2,12 @@ import { Component, Inject, PLATFORM_ID, OnInit } from '@angular/core';
 import Swiper from 'swiper';
 import { Pagination, Autoplay } from 'swiper/modules';
 import { isPlatformBrowser } from '@angular/common';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [CommonModule, RouterModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

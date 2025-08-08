@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
 import { PromotionComponent } from '../../components/promotion/promotion.component';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-promotions',
-  imports: [PromotionComponent],
+  imports: [PromotionComponent, CommonModule, RouterModule],
   templateUrl: './promotions.component.html',
   styleUrl: './promotions.component.scss'
 })
