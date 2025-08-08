@@ -3,7 +3,7 @@
     padding-bottom: 5rem;
     background-color: var(--terteary);
     h1 {
-        font-size: 3.250rem;
+        font-size: 2rem;
         color: var(--gray-1);
     }
     p {
@@ -110,6 +110,11 @@
 }
 
 @media(min-width: 1200px) {
+    .hero {
+        h1 {
+            font-size: 3.250rem;
+        }
+    }
     .hero-content {
         width: 65%;
         margin-left: auto;
