@@ -13,7 +13,7 @@ export class StoreComponent {
     {
       id: 1,
       name: 'Chocolate Amargo 85%',
-      image: '/assets/images/chocolate1-min.jpg',
+      image: '/assets/images/cafe-6.jpeg',
       price: 8900,
       currency: 'USD',
       category: 'Amargo',
@@ -22,7 +22,7 @@ export class StoreComponent {
     {
       id: 2,
       name: 'Trufas Belgas',
-      image: '/assets/images/chocolate2-min.jpg',
+      image: '/assets/images/cafe-7.jpeg',
       price: 12900,
       currency: 'USD',
       category: 'Trufas',
@@ -31,7 +31,7 @@ export class StoreComponent {
     {
       id: 3,
       name: 'Caja de Bombones Mixtos',
-      image: '/assets/images/chocolate3-min.jpg',
+      image: '/assets/images/cafe-8.jpeg',
       price: 17900,
       currency: 'USD',
       category: 'Bombones',
@@ -40,7 +40,7 @@ export class StoreComponent {
     {
       id: 4,
       name: 'Chocolate con Almendras',
-      image: '/assets/images/chocolate4-min.jpg',
+      image: '/assets/images/cafe-9.jpeg',
       price: 7500,
       currency: 'USD',
       category: 'Con frutos secos',
