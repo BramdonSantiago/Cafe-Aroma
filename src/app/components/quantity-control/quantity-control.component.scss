@@ -1,0 +1,43 @@
+.quantity-control {
+    max-width: fit-content;
+    display: inline-flex;
+    align-items: stretch;
+    overflow: hidden;
+    border: 1px solid #cccccc;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    button {
+        padding: 0.65rem 1rem;
+        cursor: pointer;
+        &:hover {
+            background-color: var(--primary);
+            color: #FFF;
+        }
+        &:disabled {
+            cursor: default;
+            opacity: 0.4;
+            pointer-events: none;
+        }
+    }
+    input {
+        text-align: center;
+        padding: 0.65rem 1rem;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        max-width: 64px;
+        font-size: 1.4rem;
+    }
+    &.small {
+        button {
+            padding: 0.2rem 0.4rem;
+        }
+        input {
+            padding: 0.2rem 0.4rem;
+            max-width: 40px;
+            font-size: 1rem;
+        }
+    }
+}

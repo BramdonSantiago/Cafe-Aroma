@@ -1,0 +1,9 @@
+<div class="quantity-control" [ngClass]="dimension">
+    <button type="button" (click)="decrease()" [disabled]="value() <= minQuantity">
+        <i class="fa-solid fa-minus"></i>
+    </button>
+    <input type="text" [value]="value()" (input)="onInputChange($event)">
+    <button type="button" (click)="increase()" [disabled]="value() >= maxQuantity">
+        <i class="fa-solid fa-plus"></i>
+    </button>
+</div>

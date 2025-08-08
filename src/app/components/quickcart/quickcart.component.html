@@ -15,9 +15,9 @@
                     <div>
                         <h3 class="product-name mb-4">{{ product.name }}</h3>
                         <div class="mb-2">
-                            <!-- <app-quantity-control [minQuantity]="product.minQuantity"
+                            <app-quantity-control [minQuantity]="product.minQuantity"
                                 [maxQuantity]="product.maxQuantity" (valueChange)="product.quantitySelected.set($event)"
-                                dimension="small"></app-quantity-control> -->
+                                dimension="small"></app-quantity-control>
                         </div>
                         <p>
                             <span class="product-price">{{ product.price * product.quantitySelected() | number:'1.0-0'

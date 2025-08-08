@@ -1,11 +1,11 @@
 import { Component, signal, computed } from '@angular/core';
 import { CartService } from '../../services/cart/cart.service';
 import { CommonModule } from '@angular/common';
-// import { QuantityControlComponent } from '../../components/quantity-control/quantity-control.component';
+import { QuantityControlComponent } from '../../components/quantity-control/quantity-control.component';
 
 @Component({
   selector: 'app-quickcart',
-  imports: [CommonModule],
+  imports: [CommonModule, QuantityControlComponent],
   templateUrl: './quickcart.component.html',
   styleUrl: './quickcart.component.scss'
 })
@@ -14,7 +14,7 @@ export class QuickCartComponent {
     {
       id: 1,
       name: 'Chocolate Amargo 85%',
-      image: '/assets/images/chocolate1-min.jpg',
+      image: '/assets/images/cafe-1.jpeg',
       price: 8900,
       currency: 'USD',
       quantity: 1,
@@ -25,7 +25,7 @@ export class QuickCartComponent {
     {
       id: 2,
       name: 'Trufas Belgas',
-      image: '/assets/images/chocolate2-min.jpg',
+      image: '/assets/images/cafe-2.jpeg',
       price: 12900,
       currency: 'USD',
       quantity: 1,
@@ -36,7 +36,7 @@ export class QuickCartComponent {
     {
       id: 3,
       name: 'Caja de Bombones Mixtos',
-      image: '/assets/images/chocolate3-min.jpg',
+      image: '/assets/images/cafe-3.jpeg',
       price: 17900,
       currency: 'USD',
       quantity: 2,
@@ -47,7 +47,7 @@ export class QuickCartComponent {
     {
       id: 4,
       name: 'Chocolate con Almendras',
-      image: '/assets/images/chocolate4-min.jpg',
+      image: '/assets/images/cafe-4.jpeg',
       price: 7500,
       currency: 'USD',
       quantity: 1,
@@ -58,7 +58,7 @@ export class QuickCartComponent {
     {
       id: 5,
       name: 'Chocolate Blanco Cremoso',
-      image: '/assets/images/chocolate5-min.jpg',
+      image: '/assets/images/cafe-5.jpeg',
       price: 9800,
       currency: 'USD',
       quantity: 1,
@@ -69,7 +69,7 @@ export class QuickCartComponent {
     {
       id: 6,
       name: 'Chocolate con Naranja',
-      image: '/assets/images/chocolate6-min.jpg',
+      image: '/assets/images/cafe-6.jpeg',
       price: 10500,
       currency: 'USD',
       quantity: 1,
@@ -80,7 +80,7 @@ export class QuickCartComponent {
     {
       id: 7,
       name: 'Brownies de Chocolate',
-      image: '/assets/images/chocolate7-min.jpg',
+      image: '/assets/images/cafe-7.jpeg',
       price: 16200,
       currency: 'USD',
       quantity: 1,
@@ -91,7 +91,7 @@ export class QuickCartComponent {
     {
       id: 8,
       name: 'Chocolate con Menta',
-      image: '/assets/images/chocolate8-min.jpg',
+      image: '/assets/images/cafe-8.jpeg',
       price: 9900,
       currency: 'USD',
       quantity: 1,
@@ -102,7 +102,7 @@ export class QuickCartComponent {
     {
       id: 9,
       name: 'Barra con Avellanas',
-      image: '/assets/images/chocolate9-min.jpg',
+      image: '/assets/images/cafe-9.jpeg',
       price: 8800,
       currency: 'USD',
       quantity: 1,
