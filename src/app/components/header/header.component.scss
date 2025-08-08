@@ -45,6 +45,15 @@
     -moz-transition: left 0.6s ease-in;
     -ms-transition: left 0.6s ease-in;
     -o-transition: left 0.6s ease-in;
+    @media(min-width: 576px) {
+        width: 60%;
+    }
+    @media(min-width: 768px) {
+        width: 50%;
+    }
+    @media(min-width: 992px) {
+        width: 40%;
+    }
     &.show-menu-mobile {
         left: 0;
     }

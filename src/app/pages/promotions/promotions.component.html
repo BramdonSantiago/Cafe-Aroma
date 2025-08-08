@@ -9,7 +9,7 @@
                 <h2 class="mb-4">Promociones destacadas</h2>
                 <p>Las ofertas más populares de la semana</p>
             </div>
-                <div class="products grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="products grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
                     @for (promotion of promotions.slice(0,3); track promotion.id) {
                         <app-promotion [promotion]="promotion" [promotionFeatured]="'promotionFeatured'"></app-promotion>
                     }
@@ -20,7 +20,7 @@
                 <h2 class="mb-4">Todas Nuestras Promociones</h2>
                 <p>Explora todas las ofertas disponibles</p>
             </div>
-                <div class="products grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="products grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
                     @for (promotion of promotions; track promotion.id) {
                         <app-promotion [promotion]="promotion"></app-promotion>
                     }
