@@ -1,10 +1,16 @@
 .singular-promotion {
+    background-color: var(--primary);
     overflow: hidden;
+    min-height: 31rem;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    position: relative;
+    &.promotionFeatured {
+        min-height: 28rem;
+    }
     .content-img {
         position: relative;
         height: 15rem;
@@ -30,10 +36,8 @@
         }
     }
     .content-body {
-        background-color: var(--primary);
         color: rgba(255, 255, 255, 0.8);
         padding: 1.5rem 1rem;
-        position: relative;
         .promotion-hover {
             position: absolute;
             bottom: -100%;

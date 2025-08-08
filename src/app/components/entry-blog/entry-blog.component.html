@@ -7,7 +7,7 @@
         <p class="date">{{ blog.date | date:'d MMMM y' : '' : 'es' }}</p>
         <p class="my-4">{{ blog.descriptionShort }}</p>
         <div class="mt-8">
-            <a [routerLink]="['/blog-detail', blog.id]" class="btn btn-primary w-full">Leer más</a>
+            <button [routerLink]="['/blog-detail', blog.id]" class="btn btn-primary">Leer más</button>
         </div>
     </div>
 </div>

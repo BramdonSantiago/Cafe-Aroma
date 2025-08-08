@@ -1,4 +1,4 @@
-<div class="singular-promotion">
+<div class="singular-promotion" [ngClass]="promotionFeatured">
     <div class="content-img">
         <img src="{{ promotion.image }}" alt="">
         <span class="badge-discount">50% OFF</span>
@@ -7,7 +7,7 @@
         <h3 class="mb-4">{{ promotion.title }}</h3>
         <p>{{ promotion.shortDescription }}</p>
         <div class="mt-8">
-            <a class="btn btn-secondary">Ver oferta</a>
+            <button class="btn btn-secondary">Ver oferta</button>
         </div>
         @if (!promotionFeatured) {
             <div class="promotion-hover">
