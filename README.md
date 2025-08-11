@@ -14,7 +14,7 @@ Pasos de instalación
 
 Los diseños de los desarrollos adicionales se encuentran en el siguiente Figma https://www.figma.com/design/17GlkHVN7h2LQXo6NW2RYN/Cafe-aroma?node-id=0-1&t=7j1qitiHMifQMH5s-1
 
-Se añadió para tener blog con vista detalle para más información de la entrada, un quickCart y una sección de testimonios en el home.
+<p>Se añadió para tener blog con vista detalle para más información de la entrada, un quickCart y una sección de testimonios en el home.</p>
 
 <p>Se añadió Tailwind como Framework de trabajo y Swiper como librería para seguir implementando slides o rotadores.</p>
 
