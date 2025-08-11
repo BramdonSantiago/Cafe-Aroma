@@ -16,7 +16,7 @@ Los diseños de los desarrollos adicionales se encuentran en el siguiente Figma 
 
 Se añadió para tener blog con vista detalle para más información de la entrada, un quickCart y una sección de testimonios en el home.
 
-<p>Se añadió Tailwind como Framework de trabajo y Swiper como librería para seguir implementando slides o rotadores</p>
+<p>Se añadió Tailwind como Framework de trabajo y Swiper como librería para seguir implementando slides o rotadores.</p>
 
 <div>Se mejoró el menu mobile para sostener opciones de un menu más completo en el futuro.<div>
 <p>También se mejoró la UX de los botones con respecto al diseño original.</p>
