@@ -18,6 +18,6 @@ Se añadió para tener blog con vista detalle para más información de la entra
 
 También se mejoró la experiencia de usuario de los botones con respecto al diseño original.
 
-Todo está manejado para tener componentes reutilizables y logica del negocio recayendo sobre los servicios.
+Todo está manejado para tener componentes reutilizables y lógica del negocio recayendo sobre los servicios.
 
 - Es un proyecto para trabajar con Angular componentes Standalone, Built-in Control Flow moderno (@if @for) e implementación de signals.
