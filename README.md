@@ -16,7 +16,7 @@ Los diseños de los desarrollos adicionales se encuentran en el siguiente Figma 
 
 Se añadió para tener blog con vista detalle para más información de la entrada, un quickCart y una sección de testimonios en el home.
 
-También se mejoró la experiencia de usuario en los botones con respecto al diseño original.
+También se mejoró la experiencia de usuario de los botones con respecto al diseño original.
 
 Todo está manejado para tener componentes reutilizables y logica del negocio recayendo sobre los servicios.
 
