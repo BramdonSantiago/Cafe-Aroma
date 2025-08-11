@@ -12,7 +12,7 @@ Pasos de instalación
   <li>ng serve para levantar la aplicación y el servidor local</li>
 </ul>
 
-Los diseños de los desarrollos adicionales se encuentran en el siguiente Figma https://www.figma.com/design/17GlkHVN7h2LQXo6NW2RYN/Cafe-aroma?node-id=0-1&t=7j1qitiHMifQMH5s-1
+Los diseños de los desarrollos adicionales se encuentran en el siguiente Figma: https://www.figma.com/design/17GlkHVN7h2LQXo6NW2RYN/Cafe-aroma?node-id=0-1&t=7j1qitiHMifQMH5s-1
 
 <p>Se añadió para tener blog con vista detalle para más información de la entrada, un quickCart y una sección de testimonios en el home.</p>
 
