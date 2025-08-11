@@ -19,7 +19,7 @@ Se añadió para tener blog con vista detalle para más información de la entra
 <div>Se mejoró el menu mobile para sostener opciones de un menu más completo en el futuro.<div>
 <div>También se mejoró la UX de los botones con respecto al diseño original.</div>
 
-Todo está manejado para tener componentes reutilizables y la lógica del negocio recayendo sobre los servicios.
+<p>Todo está manejado para tener componentes reutilizables y la lógica del negocio recayendo sobre los servicios.</p>
 
 - Es un proyecto para trabajar con Angular componentes Standalone, Built-in Control Flow moderno (@if @for) e implementación de signals.
 
