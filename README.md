@@ -16,8 +16,8 @@ Los diseños de los desarrollos adicionales se encuentran en el siguiente Figma 
 
 Se añadió para tener blog con vista detalle para más información de la entrada, un quickCart y una sección de testimonios en el home.
 
-<p>Se mejoró el menu mobile para sostener opciones de un menu más completo en el futuro.<p>
-<p>También se mejoró la UX de los botones con respecto al diseño original.</p>
+<div>Se mejoró el menu mobile para sostener opciones de un menu más completo en el futuro.<div>
+<div>También se mejoró la UX de los botones con respecto al diseño original.</div>
 
 Todo está manejado para tener componentes reutilizables y la lógica del negocio recayendo sobre los servicios.
 
