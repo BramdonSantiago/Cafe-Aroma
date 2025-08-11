@@ -1,7 +1,7 @@
 import { Component, signal, computed } from '@angular/core';
-import { CartService } from '../../services/cart/cart.service';
 import { CommonModule } from '@angular/common';
-import { QuantityControlComponent } from '../../components/quantity-control/quantity-control.component';
+import { CartService } from '@services/cart/cart.service';
+import { QuantityControlComponent } from '@components/quantity-control/quantity-control.component';
 
 @Component({
   selector: 'app-quickcart',

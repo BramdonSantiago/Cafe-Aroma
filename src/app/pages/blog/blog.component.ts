@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { EntryBlogComponent } from '../../components/entry-blog/entry-blog.component';
-import { PaginatorComponent } from '../../components/paginator/paginator.component';
+import { EntryBlogComponent } from '@components/entry-blog/entry-blog.component';
+import { PaginatorComponent } from '@components/paginator/paginator.component';
 
 @Component({
   selector: 'app-blog',

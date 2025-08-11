@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ContactFormComponent } from '../../components/contact-form/contact-form.component';
+import { ContactFormComponent } from '@components/contact-form/contact-form.component';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 

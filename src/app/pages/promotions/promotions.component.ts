@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PromotionComponent } from '../../components/promotion/promotion.component';
+import { PromotionComponent } from '@components/promotion/promotion.component';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 

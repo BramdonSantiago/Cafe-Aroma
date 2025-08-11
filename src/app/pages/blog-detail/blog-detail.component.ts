@@ -4,7 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { registerLocaleData } from '@angular/common';
 import localeEs from '@angular/common/locales/es';
 import { LOCALE_ID } from '@angular/core';
-import { BtnShareComponent } from '../../components/btn-share/btn-share.component';
+import { BtnShareComponent } from '@components/btn-share/btn-share.component';
 
 registerLocaleData(localeEs);
 

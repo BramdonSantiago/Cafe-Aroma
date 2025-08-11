@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { ProductComponent } from '../../components/product/product.component';
-import { PaginatorComponent } from '../../components/paginator/paginator.component';
+import { ProductComponent } from '@components/product/product.component';
+import { PaginatorComponent } from '@components/paginator/paginator.component';
 
 @Component({
   selector: 'app-store',
