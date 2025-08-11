@@ -11,3 +11,6 @@ Pasos de instalación
   <li>Instalar dependencias, npm install (Node 22)</li>
   <li>ng serve para levantar la aplicación y el servidor local</li>
 </ul>
+
+Los diseños para los desarrollos adicionales se encuentran en el siguiente Figma https://www.figma.com/design/17GlkHVN7h2LQXo6NW2RYN/Cafe-aroma?node-id=0-1&t=7j1qitiHMifQMH5s-1
+
