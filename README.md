@@ -20,4 +20,4 @@ También se mejoró la experiencia de usuario en los botones con respecto al dis
 
 Todo está manejado para tener componentes reutilizables y logica del negocio recayendo sobre los servicios.
 
--Es un proyecto para trabajar con Angular componentes Standalone, Built-in Control Flow moderno (@if @for) e implementación de signals.
+- Es un proyecto para trabajar con Angular componentes Standalone, Built-in Control Flow moderno (@if @for) e implementación de signals.
